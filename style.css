@@ -24,7 +24,14 @@ body {
  }
 
  #fullpage section:nth-child(2) {
-    background: #F8F8FF;
+    /*background: #F8F8FF;*/
+   background-image: url('ciel.jpg');
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   #fullpage section:nth-child(3) {
